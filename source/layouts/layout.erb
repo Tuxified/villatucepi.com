@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Villa Matijević" %></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Apartments for rent in Tučepi, Croata - Villa Matijević"/>
+    <link rel="canonical" href="http://villatucepi.com" />
+    <meta property='og:locale' content='en'/>
+    <meta property='og:title' content='Apartments for rent in Tučepi, Croata - Villa Matijević'/>
+    <meta property='og:description' content='Apartments for rent in Tučepi, Croata - Villa Matijević'/>
+    <meta property='og:url' content='http://villatucepi.com'/>
+    <meta property='og:site_name' content='Villa Matijević'/>
+    <meta property='og:type' content='article'/>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/slides.css" type="text/css" />
+    <script src="/js/vendor/modernizr-2.6.1.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="//villanena-bol.com/wp/wp-content/themes/villanena/js/slides.min.jquery.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="lang_sel"  >
+        <ul>
+          <!-- // Needs translating first
+          <li class="lang_sel_other icl-en">
+            <a rel="alternate" hreflang="en" href="/en/">
+              <img class="iclflag" src="/img/flags/en.png" alt="en" />&nbsp;
+              <span  class="icl_lang_sel_current">English</span>
+            </a>
+          </li>
+          <li class="lang_sel_sel icl-hr">
+            <a rel="alternate" hreflang="hr" href="/hr/">
+              <img class="iclflag" src="/img/flags/hr.png" alt="hr" /> &nbsp;
+              <span  class="icl_lang_sel_current">Hrvatski</span>
+            </a>
+          </li>
+
+          <li class="lang_sel_other icl-de">
+            <a rel="alternate" hreflang="de" href="de/">
+              <img class="iclflag" src="/img/flags/de.png" alt="de" />&nbsp;
+              <span  class="icl_lang_sel_native">Deutsch</span>
+            </a>
+          </li>
+          <li class="lang_sel_other icl-nl">
+            <a rel="alternate" hreflang="nl" href="nl/">
+              <img class="iclflag" src="/img/flags/nl.png" alt="nl" />&nbsp;
+              <span  class="icl_lang_sel_native">Nederlands</span>
+            </a>
+          </li>
+          <li class="lang_sel_other icl-sk">
+            <a rel="alternate" hreflang="sk" href="sk/">
+              <img class="iclflag" src="/img/flags/sk.png" alt="sk" />&nbsp;
+              <span  class="icl_lang_sel_native">Slovenský</span>
+            </a>
+          </li>
+          -->
+        </ul>
+      </div>
+      <h1><a href="http://villatucepi.com"><%= current_page.data.title || "Matijević Apartments" %></a></h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <!--
+          <li><a href="#">Apartmani i cijene</a></li>
+          <li> <a href="#">Dodatna ponuda</a> </li>
+          -->
+          <li> <a href="contact">Contact</a> </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="clear"></div>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+    <article class="main-content clearfix">
+      <div class="main-wrapper">
+        <%= yield %>
+      </div>
+    </article>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="discl">
+          <h5>&copy; <%= Time.now.year %> <%= current_page.data.title %> </h5>
+        </div>
+        <p class="design"><em>design &amp; development by</em> Tonći</p>
+      </div>
+    </footer>
+
+    <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+    </body>
+</html>
+
+
+
+
