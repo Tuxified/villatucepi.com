@@ -24,7 +24,6 @@
 #   page "/admin/*"
 # end
 page "/sitemap.xml", :layout => false
-page "/villanena.html", :layout => false
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
