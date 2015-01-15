@@ -81,3 +81,8 @@ configure :development do
   set :relative_assets, false
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true
+end
+
