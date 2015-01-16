@@ -5,19 +5,15 @@
       <priority>0.7</priority>
     </url>
     <url>
-      <loc>http://youdomain.com/contact.hr</loc>
+      <loc>http://youdomain.com/sk/contact.html</loc>
       <priority>0.7</priority>
     </url>
     <url>
-      <loc>http://youdomain.com/contact</loc>
+      <loc>http://youdomain.com/nl/contact.html</loc>
       <priority>0.7</priority>
     </url>
     <url>
-      <loc>http://youdomain.com/hr</loc>
-      <priority>0.7</priority>
-    </url>
-    <url>
-      <loc>http://youdomain.com/hr/contact.html</loc>
+      <loc>http://youdomain.com/de/contact.html</loc>
       <priority>0.7</priority>
     </url>
     <url>
@@ -26,6 +22,22 @@
     </url>
     <url>
       <loc>http://youdomain.com/index.html</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>http://youdomain.com/hr/contact.html</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>http://youdomain.com/contact.html</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>http://youdomain.com/hr/contact.html</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>http://youdomain.com/hr</loc>
       <priority>0.7</priority>
     </url>
 </urlset>
