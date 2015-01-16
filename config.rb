@@ -41,7 +41,7 @@ activate :livereload, apply_js_live: true, apply_css_live: true, no_swf: true, h
 # Use pretty URLs
 activate :directory_indexes
 # Use internalization
-activate :i18n, langs: [:en, :hr, :de, :nl, :sk]
+activate :i18n, langs: [:en, :hr, :de, :nl, :sk], mount_at_root: :en
 
 # Methods defined in the helpers block are available in templates
 # helpers do
